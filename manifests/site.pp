@@ -1,4 +1,3 @@
-file{'/sudarsantest.txt':
-	ensure => present,
-	content => "This is from sudarsan's computer",
+node "redhat.freshinstall"{
+	include httpd
 }
